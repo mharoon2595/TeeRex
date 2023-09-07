@@ -1,0 +1,12 @@
+
+@media (max-width: 899px) {
+    .searchBox{
+        width: 15rem;
+      }
+  }
+
+@media (min-width: 900px) {
+    .searchBox{
+      width: 50rem;
+    }
+  }

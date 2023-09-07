@@ -1,0 +1,26 @@
+.card {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 1235px) {
+    
+    .responsiveCard{
+      display:flex;
+      justify-content:space-between
+    }
+    
+}
+
+@media (max-width: 1234px) {
+    
+    .responsiveCard{
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+}
+

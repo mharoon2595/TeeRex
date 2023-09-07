@@ -1,0 +1,56 @@
+.titleBar{
+    
+    position: fixed;
+    top:0;
+    width:100vw;
+    z-index:2;
+    height: 10vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.title{
+
+    font-size: 30px; 
+    padding: 20px;
+    margin: 10px;
+}
+
+.title:hover{
+    cursor: pointer;
+}
+
+.shoppingIcon{
+    padding: 20px;
+    margin: 25px ;
+    position: relative;
+}
+
+.shoppingIcon:hover{
+    cursor: pointer;
+    transform:scale(1.25);
+   transition: transform 0.5s;
+   
+}
+
+.superScript{
+    position: absolute;
+    right:5px;
+    top: 10px;
+    background-color: bisque;
+    border-radius: 50%;
+    height:25px;
+    width:25px;
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: 700;
+}

@@ -1,0 +1,14 @@
+.filterCard{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color:silver;
+    /* height: 30rem; */
+    padding: 1rem;
+    
+    color: black
+}
+

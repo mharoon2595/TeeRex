@@ -1,0 +1,39 @@
+.names{
+    height: 80vh;
+}
+
+.searchBox{
+ 
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  width: 100rem;
+}
+
+.hideCart{
+  display: none;
+}
+
+
+
+@media (max-width: 899px) {
+  .hideFilterBox{
+    display:none
+  }
+
+  .filterButton{
+    background-color: gray;
+    border-radius: 10%;
+    margin-top:10rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    padding: 12.5px
+  }
+  
+}
+
+@media (min-width: 900px) {
+  .filterButton{
+    display:none
+  }
+}
